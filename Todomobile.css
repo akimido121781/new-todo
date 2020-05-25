@@ -1,0 +1,66 @@
+@media screen and (max-width: 640px){
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}    
+
+
+
+.isComplete{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(212, 31, 31);
+}
+
+.titile{
+    font-size: 100px;
+    font-weight: 1000;
+    text-align: center;
+
+}
+
+body{
+    background-image: url(image/3143437_s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+}
+
+form{
+    text-align: center;
+    height: 50px;
+}
+
+input{
+    height:40px;
+    font-size: large;
+    margin: auto;
+}
+
+button{
+    height: 40px;
+    margin: auto;
+}
+
+ul.todo.js-addTask-target{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact;
+}
+
+button.js-addTask-trigger{
+    width:100px;
+    font-size:12px;
+    color:#FFFFFF;
+    text-align:center;
+    display:block;
+    padding:10px 0 10px;
+    background:#6BCBF6;
+    border-radius:5px;
+    box-shadow:1px 1px #1A6EA0;
+
+}
+}
